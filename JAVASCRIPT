@@ -1,0 +1,36 @@
+Question: What is the difference between document and window object in js
+Answer:
+In JavaScript, the "document" and "window" objects are both part of the Document Object Model (DOM) and are crucial for interacting with and manipulating web pages,
+but they serve different purposes and represent different aspects of the web page.
+
+1. document object:
+   - The document object represents the entire HTML document loaded in a web page.
+   - It provides access to the structure and content of the web page, including elements, text, and attributes.
+   - You can use the document object to select, manipulate, and query elements within the document using methods like getElementById, querySelector, querySelectorAll, 
+     and more.
+   - It does not have direct access to the browser window itself; it primarily deals with the content of the web page.
+
+Example:
+// Select an element with the ID "myElement" using the document object
+var element = document.getElementById("myElement");
+
+
+2. window object:
+   - The window object represents the browser window or tab in which the web page is loaded.
+   - It provides access to various browser-related functionalities, such as controlling the window's size, navigation, and events.
+   - You can use the window object to manipulate the browser's behavior, set timeouts, handle events, and open or close new windows or tabs.
+   - It is the top-level object in the browser's JavaScript environment.
+
+Example:
+// Open a new browser window
+var newWindow = window.open("https://www.example.com");
+
+// Set a timeout to execute a function after a delay
+window.setTimeout(function() {
+    // This code will execute after the specified delay
+}, 2000);
+
+In summary, the document object is primarily concerned with the content and structure of the web page, 
+allowing you to interact with and manipulate its elements, while the window object focuses on browser-related actions and control, 
+such as managing windows, handling events, and timers. Both objects are essential for web development, 
+and understanding their differences and capabilities is crucial for building interactive and dynamic web applications.

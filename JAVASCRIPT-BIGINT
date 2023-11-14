@@ -1,0 +1,16 @@
+BigInt is a special numeric type that provides support for integers of arbitrary length.
+
+How to create
+-------------
+const bigint = 1234567890124234327947329579433n;
+
+const sameBigint = BigInt("1243243947395345678901234567890");
+
+const bigintFromNumber = BigInt(20); // same as 20n
+
+Math operators
+---------------
+BigInt can mostly be used like a regular number, for example:
+
+alert(1n + 2n); // 3
+alert(5n / 2n); // 2

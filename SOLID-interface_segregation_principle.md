@@ -82,8 +82,9 @@ interface BackEndDeveloperInterface
  void workOnDB();              //Backend Technology
  void workOnBackEndLanguage(); //Backend Technology
 }
+```
 
-
+```java
 class FrontEndDeveloperClass implements FrontEndDeveloperInterface
 {
 
@@ -98,7 +99,8 @@ class FrontEndDeveloperClass implements FrontEndDeveloperInterface
   } 
 
 }
-
+```
+```java
 class BackEndDeveloperClass implements BackEndDeveloperInterface
 {
  
@@ -110,7 +112,8 @@ class BackEndDeveloperClass implements BackEndDeveloperInterface
   }
 
 }
-
+```
+```java
 class FullStackDeveloperClass implements FrontEndDeveloperInterface,BackEndDeveloperInterface {
   void workOnCSS(){
   //Yes I can work on CSS  😃
@@ -131,9 +134,10 @@ class FullStackDeveloperClass implements FrontEndDeveloperInterface,BackEndDevel
 }
 ```
 
-__
-## Ripu sudan Chauhan
-## https://ripusudanchauhan.blogspot.com/
-## https://ripusudan.github.io/                                                            
-## https://www.linkedin.com/in/ripu-sudan-chauhan                                                          
-__  
+
+Ripu sudan Chauhan<br>
+https://ripusudanchauhan.blogspot.com/<br>
+https://ripusudan.github.io/<br>                                                  
+https://www.linkedin.com/in/ripu-sudan-chauhan<br>
+
+ 
